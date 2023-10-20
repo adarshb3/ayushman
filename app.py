@@ -18,7 +18,7 @@ def main():
         st.subheader("Figures in ₹ Lakhs")
 
     # Read the Excel file directly
-    df = pd.read_excel("D:/App/Cost Structures/Dummy Cost Structures.xlsx")
+    df = pd.read_excel("Dummy Cost Structures.xlsx")
 
     # Replace NaN values in all columns with empty strings
     df = df.fillna("")
