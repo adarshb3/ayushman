@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+import openpyxl
 
 # Set the page configuration
 st.set_page_config(layout="wide", initial_sidebar_state="collapsed")
